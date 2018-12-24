@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "react",
+    "react-app"
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "components": "./js/components",
+        "containers": "./js/containers",
+        "constants": "./js/constants",
+        "reducers": "./js/reducers",
+        "actions": "./js/actions",
+      }
+    }]
+  ]
+}

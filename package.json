@@ -1,0 +1,37 @@
+{
+  "name": "fo76-perk-sim",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "repository": "https://github.com/ayatec/fo76-perk-sim.git",
+  "author": "ayatec <aya@ayatec.jp>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/js/index.js -d public/js --no-source-maps"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.7.0",
+    "@material-ui/icons": "^3.0.1",
+    "emotion": "^9.2.12",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-emotion": "^9.2.12",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^3.1.2",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "parcel-bundler": "^1.10.3",
+    "react-hot-loader": "^4.3.11"
+  }
+}
